@@ -22,25 +22,25 @@ While playing game each action taken in a state (move left, move right, don't mo
 
 Lets repesent the game screen with a 2-D array. The array elements wrt the position of the ball and the paddle are "1"s. Rest all values are "0"s. 
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/01.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/01.png)
 
 Next step is to decide what action to take. We use neural network to predict reward for each action and select action with maximum reward. However if we just depend on neural network for the next action, then we will be restricted to only to those predicted actions. There can be an action which may give better rewards which is not predicted by machine. So during game play, sometimes we use a random action instead of the predicted action. (This problem is called Exploration-Exploitation dilemma).
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/02.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/02.png)
 
 Once the action is decided, update the state according to the action i.e. move paddle as per action, and continue ball's journey as per trajectory.
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/03.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/03.png)
 
 The action will result in some point gain (ball is bounced off the paddle) or point loss (ball touches ground) or no point change (ball is in air).
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/04.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/04.png)
 
 Store the tuple <current state, action, reward, next state> in FIFO queue. Neual networks have tendency to adopt to recent training (and hence forget earlier learnings). To fix this, the entries in queue will be used to re-train the neural network. (This process is called Experience Replay).
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/05.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/05.png)
 
-![](https://github.com/azhar2205/azhar2205.github.io/tree/master/img/2017-06-04-paddle-ball-dqlearn/06.png)
+![](../img/2017-06-04-paddle-ball-dqlearn/06.png)
 
 There is one more importance step done during Experience Replay. The target of the neural network (i.e. the reward for an action) is set to the computed maximum reward (aka Discounted Future Reward). The neural network learns to match output closely to expected Discounted Future Reward.
 
