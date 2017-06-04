@@ -51,7 +51,7 @@ It is highly recommended to refer [this post](https://www.nervanasys.com/demysti
 
 [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 
-[Using Keras and Deep Q-Network to Play FlappyBird | Ben Lau](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)
+[Using Keras and Deep Q-Network to Play FlappyBird - Ben Lau](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)
 
 [Keras plays catch, a single file Reinforcement Learning example - Eder Santana](http://edersantana.github.io/articles/keras_rl/)
 
