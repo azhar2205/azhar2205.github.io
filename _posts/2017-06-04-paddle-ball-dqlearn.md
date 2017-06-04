@@ -44,7 +44,7 @@ Store the tuple <current state, action, reward, next state> in FIFO queue. Neual
 
 There is one more importance step done during Experience Replay. The target of the neural network (i.e. the reward for an action) is set to the computed maximum reward (aka Discounted Future Reward). The neural network learns to match output closely to expected Discounted Future Reward.
 
-It is highly recommended to refer https://www.nervanasys.com/demystifying-deep-reinforcement-learning/.
+It is highly recommended to refer [this post](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/).
 
 ## References:
 [Guest Post (Part I): Demystifying Deep Reinforcement Learning - Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
@@ -57,7 +57,7 @@ It is highly recommended to refer https://www.nervanasys.com/demystifying-deep-r
 
 [GitHub - asrivat1/DeepLearningVideoGames](https://github.com/asrivat1/DeepLearningVideoGames)
 
-[Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project](http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-pr)oject/
+[Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project](http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/)
 
 [Deep Reinforcement Learning: Playing a Racing Game - Byte Tank](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html)
 
