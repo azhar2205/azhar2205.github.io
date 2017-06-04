@@ -55,19 +55,18 @@ There is one more importance step done during Experience Replay. The target of t
 It is highly recommended to refer https://www.nervanasys.com/demystifying-deep-reinforcement-learning/.
 
 ## References:
-[](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
+[Guest Post (Part I): Demystifying Deep Reinforcement Learning - Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 
-[](http://karpathy.github.io/2016/05/31/rl/)
+[Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 
-[](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)
+[Using Keras and Deep Q-Network to Play FlappyBird | Ben Lau](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)
 
-[](http://edersantana.github.io/articles/keras_rl/)
+[Keras plays catch, a single file Reinforcement Learning example - Eder Santana](http://edersantana.github.io/articles/keras_rl/)
 
-[](https://github.com/asrivat1/DeepLearningVideoGames)
+[GitHub - asrivat1/DeepLearningVideoGames](https://github.com/asrivat1/DeepLearningVideoGames)
 
-[](http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-project/)
+[Teaching Your Computer To Play Super Mario Bros. – A Fork of the Google DeepMind Atari Machine Learning Project](http://www.ehrenbrav.com/2016/08/teaching-your-computer-to-play-super-mario-bros-a-fork-of-the-google-deepmind-atari-machine-learning-pr)oject/
 
-[](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html)
+[Deep Reinforcement Learning: Playing a Racing Game - Byte Tank](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html)
 
-[](https://arxiv.org/pdf/1312.5602.pdf)
-
+[https://arxiv.org/pdf/1312.5602.pdf](https://arxiv.org/pdf/1312.5602.pdf)
