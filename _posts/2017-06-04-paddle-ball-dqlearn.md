@@ -6,7 +6,7 @@ date: 2017-06-04
 
 This project demonstrates training a machine to play simple paddle ball game using Deep-Q Learning algorithm with Keras.
 
-This article is intended for beginers.
+This article is intended for beginners.
 
 ## Pre-requisites
 * Python (tested on 3.6)
@@ -20,7 +20,7 @@ This article is intended for beginers.
 ## How it works (in context of paddle ball game)?
 While playing game each action taken in a state (move left, move right, don't move) impacts the total points obtained at the end of the game. The goal is given a state, select an action such that the future result is maximum.
 
-Lets repesent the game screen with a 2-D array. The array elements wrt the position of the ball and the paddle are "1"s. Rest all values are "0"s. 
+Lets represent the game screen with a 2-D array. The array elements wrt the position of the ball and the paddle are "1"s. Rest all values are "0"s. 
 
 ![](https://azhar2205.github.io/img/2017-06-04-paddle-ball-dqlearn/01.png)
 
