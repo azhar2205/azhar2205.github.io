@@ -16,6 +16,7 @@ This article is intended for beginers.
 * pygame
 
 ## Run the code
+[https://github.com/azhar2205/paddle-ball-using-dqlearn](https://github.com/azhar2205/paddle-ball-using-dqlearn)
 
 First train the model
 
